@@ -1,12 +1,14 @@
 import React from 'react';
 import Banner from '../components/banner/Banner';
-import Banner2 from '../components/banner/Banner2';
+import Skill from '../components/skillSection/Skill';
+
 
 const Home = () => {
     return (
         <div>
             <Banner/>
-            {/* <Banner2/> */}
+            <Skill/>
+      
         </div>
     );
 };
