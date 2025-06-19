@@ -28,7 +28,7 @@ const MyWork = () => {
                       and recommend the best course of
                                     action."
                     />
-                    <Cards btnText={'Strategy'} description="Every end-to-end project of ours
+                    <Cards colors={true} bg={true} btnText={'Strategy'} description="Every end-to-end project of ours
                     begins with a tEspoke pre-build
                     strateu. From brand ID consultation
                     to in-depth ccxle reviews we're here
