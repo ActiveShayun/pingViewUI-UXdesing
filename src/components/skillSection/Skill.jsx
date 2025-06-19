@@ -4,7 +4,7 @@ import Card from '../../shared/cards/Card';
 
 const Skill = () => {
     return (
-        <div className='bg-black p-10 rounded-lg text-white mb-16'>
+        <div className='bg-black p-10 rounded-lg text-white order border-red-600'>
             <div>
                 <div className='flex items-center text-white'>
                     <span >
@@ -36,12 +36,13 @@ const Skill = () => {
                 </div>
                 {/* cards */}
                 <div className='lg:flex items-center justify-center  gap-4'>
-                    <div className='lg:w-[430px] lg:h-[300px]'><Card /></div>
+                    <div className='lg:w-[430px] lg:h-[300px]'>
+                        <Card cardTitle={'HTML & CSS'}/></div>
                     <div className='lg:rotate-4 lg:w-[430px] lg:h-[300px]'>
-                        <Card />
+                        <Card cardTitle={'Javascript'}/>
                     </div>
                     <div className='lg:-rotate-4 lg:w-[430px] lg:h-[300px]'>
-                        <Card />
+                        <Card cardTitle={'Webflow'}/>
                     </div>
                 </div>
             </div>

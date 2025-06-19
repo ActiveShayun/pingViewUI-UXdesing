@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Button from './button/ButtonNav';
 import ButtonNav from './button/ButtonNav';
 
 const Navbar = () => {
@@ -12,7 +11,7 @@ const Navbar = () => {
     </>
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm">
+            <div className="navbar bg-base-100 shadow-sm w-full">
                 <div className='flex justify-between gap-4 w-full'>
                     <div className="navbar-start">
                         <div className="dropdown">
