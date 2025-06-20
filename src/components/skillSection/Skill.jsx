@@ -4,7 +4,7 @@ import Card from '../../shared/cards/Card';
 
 const Skill = () => {
     return (
-        <div className='bg-black p-10 rounded-lg text-white order border-red-600'>
+        <div className='bg-black p-10 rounded-lg text-white '>
             <div>
                 <div className='flex items-center text-white'>
                     <span >

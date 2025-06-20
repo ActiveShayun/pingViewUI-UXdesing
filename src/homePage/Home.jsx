@@ -2,6 +2,7 @@ import Banner from '../components/banner/Banner';
 import Skill from '../components/skillSection/Skill';
 import AboutSection from '../components/aboutSection/AboutSection';
 import MyWork from '../components/myWorkSection/MyWork';
+import Contact from '../components/contactSection/Contact';
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <Skill />
             <AboutSection />
             <MyWork/>
+            <Contact/>
         </div>
     );
 };

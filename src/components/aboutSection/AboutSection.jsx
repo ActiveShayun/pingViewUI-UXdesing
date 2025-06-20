@@ -17,9 +17,9 @@ const AboutSection = () => {
                         </div>
                         {/* title */}
                         <div>
-                            <h3 className='lg:text-7xl text-black text-5xl font-bold text-center mt-8'>
+                            <h3 className='lg:text-7xl text-black text-5xl font-bold lg:text-center text-left mt-8'>
                                 I’ve been
-                                <span className='bg-black text-white rounded-xl ml-2 px-2 inline-block pb-2 my-2 lg:my-0 lg:mb-4'>
+                                <span className='bg-black text-white rounded-xl lg:ml-2 px-2 inline-block pb-2 my-2 lg:my-0 lg:mb-4'>
                                     Developing</span> <br className='hidden lg:block ' />
                                 Websites since
                                 <span className='bg-black text-white rounded-xl ml-2 px-2 inline-block pb-2 mt-2'>
@@ -28,14 +28,14 @@ const AboutSection = () => {
                     </div>
                 </div>
 
-                <div>
-                    <p className='text-center lg:w-3/6 mx-auto mt-4'>
+                <div className='px-4'>
+                    <p className='lg:text-center text-left lg:w-3/6 mx-auto mt-4'>
                         We start every new client interaction with an in-depth discovery call where
                         we get to know each other and recommend the best course of
                         action</p>
-                    <div className='grid grid-cols-1 lg:grid-cols-11 mt-16'>
+                    <div className='grid grid-cols-1 lg:grid-cols-11 lg:mt-16 mt-8'>
                         {/* PREVIOUSLY WORKED ON */}
-                        <div className='col-span-3 lg:pl-14'>
+                        <div className='col-span-3 lg:pl-14 mb-4'>
                             <h5 className='text-2xl font-bold'>
                                 PREVIOUSLY <br /> WORKED ON</h5>
                         </div>
